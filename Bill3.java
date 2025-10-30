@@ -11,6 +11,6 @@ public class Bill3 {
 		double pay  = all/3;
 
 		
-	    System.out.println("Dear " + name1 + ", " + name2 + " and " + name3 + ":" + " pay " + pay +".");
+	    System.out.println("Dear " + name1 + ", " + name2 + " and " + name3 + ":" + " pay " + pay +". " );
 	}
 }
