@@ -7,7 +7,6 @@ public class Bill3 {
 		String name3 = args[2];
 		int all = Integer.parseInt(args[3]);
 		
-
 		double pay  = all/3;
 
 		
