@@ -10,6 +10,6 @@ public class Bill3 {
 		double pay  = (double) all/3;
 		double finalShare = Math.ceil(pay);
 	   
-		System.out.println("Dear " + name3 + ", " + name2 + " and " + name1 + ": pay " + finalShare + " Shekels");
+		System.out.println("Dear " + name3 + ", " + name2 + " and " + name1 + ": pay " + finalShare + " Shekels each.");
 	}
 }
