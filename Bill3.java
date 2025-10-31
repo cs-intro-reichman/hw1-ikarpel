@@ -7,9 +7,8 @@ public class Bill3 {
 		String name3 = args[2];
 		int all = Integer.parseInt(args[3]);
 		
-		double pay  = all/3;
-
-		
-	    System.out.println("Dear " + name1 + ", " + name2 + " and " + name3 + ":" + " pay " + pay +". " );
+		double pay  = (double) all/3;
+	   
+		System.out.println("Dear " + name1 + ", " + name2 + " and " + name3 + ": pay " + pay + ". ");
 	}
 }
