@@ -5,7 +5,7 @@ public class Ascend {
 		double lim = Integer.parseInt(args[0]);
 		int num1 = (int) (lim * Math.random());
 		int num2 = (int) (lim * Math.random());
-		int num3 = (int) (lim * Math.random());
+		int num3 = (int) (lim* Math.random());
 		
 		System.out.println(num1+ " " + num2 + " " + num3);
 
